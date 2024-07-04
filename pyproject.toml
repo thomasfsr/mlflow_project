@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mlflow-project"
+version = "0.1.0"
+description = ""
+authors = ["Thomás Freire <thomas.fsr@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.1"
+mlflow = "^2.14.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
